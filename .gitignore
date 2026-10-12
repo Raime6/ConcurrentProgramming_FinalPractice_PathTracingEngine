@@ -26,7 +26,18 @@
 *.a
 *.lib
 
+# SDL3 is a vendored dependency required by the checked-in Visual Studio projects.
+!PathTracingEngine/engine/libraries/sdl3/lib/visual-studio-2022/x64/sdl3-static-d.lib
+!PathTracingEngine/engine/libraries/sdl3/lib/visual-studio-2022/x64/sdl3-static.lib
+
 # Executables
 *.exe
 *.out
 *.app
+
+# Visual Studio user data and generated build directories
+.vs/
+*.vcxproj.user
+**/output/
+**/projects/visual-studio-2022/x64/
+**/projects/visual-studio-2022/*/x64/
