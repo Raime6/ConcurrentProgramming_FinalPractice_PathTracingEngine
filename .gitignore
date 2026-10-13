@@ -31,7 +31,6 @@
 !PathTracingEngine/engine/libraries/sdl3/lib/visual-studio-2022/x64/sdl3-static.lib
 
 # Executables
-*.exe
 *.out
 *.app
 
